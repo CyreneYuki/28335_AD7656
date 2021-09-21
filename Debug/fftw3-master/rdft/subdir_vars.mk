@@ -1,0 +1,256 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../fftw3-master/rdft/buffered.c \
+../fftw3-master/rdft/buffered2.c \
+../fftw3-master/rdft/conf.c \
+../fftw3-master/rdft/ct-hc2c-direct.c \
+../fftw3-master/rdft/ct-hc2c.c \
+../fftw3-master/rdft/dft-r2hc.c \
+../fftw3-master/rdft/dht-r2hc.c \
+../fftw3-master/rdft/dht-rader.c \
+../fftw3-master/rdft/direct-r2c.c \
+../fftw3-master/rdft/direct-r2r.c \
+../fftw3-master/rdft/direct2.c \
+../fftw3-master/rdft/generic.c \
+../fftw3-master/rdft/hc2hc-direct.c \
+../fftw3-master/rdft/hc2hc-generic.c \
+../fftw3-master/rdft/hc2hc.c \
+../fftw3-master/rdft/indirect.c \
+../fftw3-master/rdft/khc2c.c \
+../fftw3-master/rdft/khc2hc.c \
+../fftw3-master/rdft/kr2c.c \
+../fftw3-master/rdft/kr2r.c \
+../fftw3-master/rdft/nop.c \
+../fftw3-master/rdft/nop2.c \
+../fftw3-master/rdft/plan.c \
+../fftw3-master/rdft/plan2.c \
+../fftw3-master/rdft/problem.c \
+../fftw3-master/rdft/problem2.c \
+../fftw3-master/rdft/rank-geq2-rdft2.c \
+../fftw3-master/rdft/rank-geq2.c \
+../fftw3-master/rdft/rank0-rdft2.c \
+../fftw3-master/rdft/rank0.c \
+../fftw3-master/rdft/rdft-dht.c \
+../fftw3-master/rdft/rdft2-inplace-strides.c \
+../fftw3-master/rdft/rdft2-rdft.c \
+../fftw3-master/rdft/rdft2-strides.c \
+../fftw3-master/rdft/rdft2-tensor-max-index.c \
+../fftw3-master/rdft/solve.c \
+../fftw3-master/rdft/solve2.c \
+../fftw3-master/rdft/vrank-geq1-rdft2.c \
+../fftw3-master/rdft/vrank-geq1.c \
+../fftw3-master/rdft/vrank3-transpose.c 
+
+OBJS += \
+./buffered.obj \
+./buffered2.obj \
+./ct-hc2c-direct.obj \
+./ct-hc2c.obj \
+./dft-r2hc.obj \
+./dht-r2hc.obj \
+./dht-rader.obj \
+./direct-r2c.obj \
+./direct-r2r.obj \
+./direct2.obj \
+./generic.obj \
+./hc2hc-direct.obj \
+./hc2hc-generic.obj \
+./hc2hc.obj \
+./indirect.obj \
+./khc2c.obj \
+./khc2hc.obj \
+./kr2c.obj \
+./kr2r.obj \
+./nop.obj \
+./nop2.obj \
+./plan.obj \
+./plan2.obj \
+./problem.obj \
+./problem2.obj \
+./rank-geq2-rdft2.obj \
+./rank-geq2.obj \
+./rank0-rdft2.obj \
+./rank0.obj \
+./rdft-dht.obj \
+./rdft2-inplace-strides.obj \
+./rdft2-rdft.obj \
+./rdft2-strides.obj \
+./rdft2-tensor-max-index.obj \
+./solve.obj \
+./solve2.obj \
+./vrank-geq1-rdft2.obj \
+./vrank-geq1.obj \
+./vrank3-transpose.obj 
+
+C_DEPS += \
+./fftw3-master/rdft/buffered.pp \
+./fftw3-master/rdft/buffered2.pp \
+./fftw3-master/rdft/conf.pp \
+./fftw3-master/rdft/ct-hc2c-direct.pp \
+./fftw3-master/rdft/ct-hc2c.pp \
+./fftw3-master/rdft/dft-r2hc.pp \
+./fftw3-master/rdft/dht-r2hc.pp \
+./fftw3-master/rdft/dht-rader.pp \
+./fftw3-master/rdft/direct-r2c.pp \
+./fftw3-master/rdft/direct-r2r.pp \
+./fftw3-master/rdft/direct2.pp \
+./fftw3-master/rdft/generic.pp \
+./fftw3-master/rdft/hc2hc-direct.pp \
+./fftw3-master/rdft/hc2hc-generic.pp \
+./fftw3-master/rdft/hc2hc.pp \
+./fftw3-master/rdft/indirect.pp \
+./fftw3-master/rdft/khc2c.pp \
+./fftw3-master/rdft/khc2hc.pp \
+./fftw3-master/rdft/kr2c.pp \
+./fftw3-master/rdft/kr2r.pp \
+./fftw3-master/rdft/nop.pp \
+./fftw3-master/rdft/nop2.pp \
+./fftw3-master/rdft/plan.pp \
+./fftw3-master/rdft/plan2.pp \
+./fftw3-master/rdft/problem.pp \
+./fftw3-master/rdft/problem2.pp \
+./fftw3-master/rdft/rank-geq2-rdft2.pp \
+./fftw3-master/rdft/rank-geq2.pp \
+./fftw3-master/rdft/rank0-rdft2.pp \
+./fftw3-master/rdft/rank0.pp \
+./fftw3-master/rdft/rdft-dht.pp \
+./fftw3-master/rdft/rdft2-inplace-strides.pp \
+./fftw3-master/rdft/rdft2-rdft.pp \
+./fftw3-master/rdft/rdft2-strides.pp \
+./fftw3-master/rdft/rdft2-tensor-max-index.pp \
+./fftw3-master/rdft/solve.pp \
+./fftw3-master/rdft/solve2.pp \
+./fftw3-master/rdft/vrank-geq1-rdft2.pp \
+./fftw3-master/rdft/vrank-geq1.pp \
+./fftw3-master/rdft/vrank3-transpose.pp 
+
+C_DEPS__QUOTED += \
+"fftw3-master\rdft\buffered.pp" \
+"fftw3-master\rdft\buffered2.pp" \
+"fftw3-master\rdft\conf.pp" \
+"fftw3-master\rdft\ct-hc2c-direct.pp" \
+"fftw3-master\rdft\ct-hc2c.pp" \
+"fftw3-master\rdft\dft-r2hc.pp" \
+"fftw3-master\rdft\dht-r2hc.pp" \
+"fftw3-master\rdft\dht-rader.pp" \
+"fftw3-master\rdft\direct-r2c.pp" \
+"fftw3-master\rdft\direct-r2r.pp" \
+"fftw3-master\rdft\direct2.pp" \
+"fftw3-master\rdft\generic.pp" \
+"fftw3-master\rdft\hc2hc-direct.pp" \
+"fftw3-master\rdft\hc2hc-generic.pp" \
+"fftw3-master\rdft\hc2hc.pp" \
+"fftw3-master\rdft\indirect.pp" \
+"fftw3-master\rdft\khc2c.pp" \
+"fftw3-master\rdft\khc2hc.pp" \
+"fftw3-master\rdft\kr2c.pp" \
+"fftw3-master\rdft\kr2r.pp" \
+"fftw3-master\rdft\nop.pp" \
+"fftw3-master\rdft\nop2.pp" \
+"fftw3-master\rdft\plan.pp" \
+"fftw3-master\rdft\plan2.pp" \
+"fftw3-master\rdft\problem.pp" \
+"fftw3-master\rdft\problem2.pp" \
+"fftw3-master\rdft\rank-geq2-rdft2.pp" \
+"fftw3-master\rdft\rank-geq2.pp" \
+"fftw3-master\rdft\rank0-rdft2.pp" \
+"fftw3-master\rdft\rank0.pp" \
+"fftw3-master\rdft\rdft-dht.pp" \
+"fftw3-master\rdft\rdft2-inplace-strides.pp" \
+"fftw3-master\rdft\rdft2-rdft.pp" \
+"fftw3-master\rdft\rdft2-strides.pp" \
+"fftw3-master\rdft\rdft2-tensor-max-index.pp" \
+"fftw3-master\rdft\solve.pp" \
+"fftw3-master\rdft\solve2.pp" \
+"fftw3-master\rdft\vrank-geq1-rdft2.pp" \
+"fftw3-master\rdft\vrank-geq1.pp" \
+"fftw3-master\rdft\vrank3-transpose.pp" 
+
+OBJS__QUOTED += \
+"buffered.obj" \
+"buffered2.obj" \
+"ct-hc2c-direct.obj" \
+"ct-hc2c.obj" \
+"dft-r2hc.obj" \
+"dht-r2hc.obj" \
+"dht-rader.obj" \
+"direct-r2c.obj" \
+"direct-r2r.obj" \
+"direct2.obj" \
+"generic.obj" \
+"hc2hc-direct.obj" \
+"hc2hc-generic.obj" \
+"hc2hc.obj" \
+"indirect.obj" \
+"khc2c.obj" \
+"khc2hc.obj" \
+"kr2c.obj" \
+"kr2r.obj" \
+"nop.obj" \
+"nop2.obj" \
+"plan.obj" \
+"plan2.obj" \
+"problem.obj" \
+"problem2.obj" \
+"rank-geq2-rdft2.obj" \
+"rank-geq2.obj" \
+"rank0-rdft2.obj" \
+"rank0.obj" \
+"rdft-dht.obj" \
+"rdft2-inplace-strides.obj" \
+"rdft2-rdft.obj" \
+"rdft2-strides.obj" \
+"rdft2-tensor-max-index.obj" \
+"solve.obj" \
+"solve2.obj" \
+"vrank-geq1-rdft2.obj" \
+"vrank-geq1.obj" \
+"vrank3-transpose.obj" 
+
+C_SRCS__QUOTED += \
+"../fftw3-master/rdft/buffered.c" \
+"../fftw3-master/rdft/buffered2.c" \
+"../fftw3-master/rdft/conf.c" \
+"../fftw3-master/rdft/ct-hc2c-direct.c" \
+"../fftw3-master/rdft/ct-hc2c.c" \
+"../fftw3-master/rdft/dft-r2hc.c" \
+"../fftw3-master/rdft/dht-r2hc.c" \
+"../fftw3-master/rdft/dht-rader.c" \
+"../fftw3-master/rdft/direct-r2c.c" \
+"../fftw3-master/rdft/direct-r2r.c" \
+"../fftw3-master/rdft/direct2.c" \
+"../fftw3-master/rdft/generic.c" \
+"../fftw3-master/rdft/hc2hc-direct.c" \
+"../fftw3-master/rdft/hc2hc-generic.c" \
+"../fftw3-master/rdft/hc2hc.c" \
+"../fftw3-master/rdft/indirect.c" \
+"../fftw3-master/rdft/khc2c.c" \
+"../fftw3-master/rdft/khc2hc.c" \
+"../fftw3-master/rdft/kr2c.c" \
+"../fftw3-master/rdft/kr2r.c" \
+"../fftw3-master/rdft/nop.c" \
+"../fftw3-master/rdft/nop2.c" \
+"../fftw3-master/rdft/plan.c" \
+"../fftw3-master/rdft/plan2.c" \
+"../fftw3-master/rdft/problem.c" \
+"../fftw3-master/rdft/problem2.c" \
+"../fftw3-master/rdft/rank-geq2-rdft2.c" \
+"../fftw3-master/rdft/rank-geq2.c" \
+"../fftw3-master/rdft/rank0-rdft2.c" \
+"../fftw3-master/rdft/rank0.c" \
+"../fftw3-master/rdft/rdft-dht.c" \
+"../fftw3-master/rdft/rdft2-inplace-strides.c" \
+"../fftw3-master/rdft/rdft2-rdft.c" \
+"../fftw3-master/rdft/rdft2-strides.c" \
+"../fftw3-master/rdft/rdft2-tensor-max-index.c" \
+"../fftw3-master/rdft/solve.c" \
+"../fftw3-master/rdft/solve2.c" \
+"../fftw3-master/rdft/vrank-geq1-rdft2.c" \
+"../fftw3-master/rdft/vrank-geq1.c" \
+"../fftw3-master/rdft/vrank3-transpose.c" 
+
+
